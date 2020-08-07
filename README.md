@@ -1,4 +1,4 @@
-<img alt="pipisasa's Github Stats" src="https://github-readme-stats.vercel.app/api?username=pipisasa&show_icons=true&hide_border=true">
+<img alt="pipisasa's Github Stats" src="https://github-readme-stats.vercel.app/api?username=pipisasa&show_icons=true&hide_border=true&theme=gotham">
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=pipisasa&layout=compact)](https://github.com/pipisasa)
 
