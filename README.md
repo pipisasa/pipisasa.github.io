@@ -5,3 +5,4 @@
 ### Star Wars Wiki
 
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=pipisasa&repo=swapi)](https://github.com/pipisasa/swapi)
+[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=pipisasa&repo=fibonacci)](https://github.com/pipisasa/fibonacci)
