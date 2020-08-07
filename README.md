@@ -1,6 +1,6 @@
 <img alt="pipisasa's Github Stats" src="https://github-readme-stats.vercel.app/api?username=pipisasa&show_icons=true&hide_border=true">
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=pipisasa&layout=compact)](https://github.com/pipisasa)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=pipisasa&layout=compact&hide_border=true)](https://github.com/pipisasa)
 
 ### My projects that I did while studying
 
