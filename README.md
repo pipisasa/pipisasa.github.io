@@ -1,5 +1,7 @@
 <img alt="pipisasa's Github Stats" src="https://github-readme-stats.vercel.app/api?username=pipisasa&show_icons=true&hide_border=true">
 
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=pipisasa&layout=compact)](https://github.com/pipisasa)
+
 ### My projects that I did while studying
 
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=pipisasa&repo=tanks_2.0)](https://github.com/pipisasa/tanks_2.0)
