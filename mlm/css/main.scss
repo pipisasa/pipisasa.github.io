@@ -1,0 +1,59 @@
+@import './components/mixins';
+@import './/components/keyframes';
+
+
+@import './components/header';
+
+.seaweed{
+  &-left, &-right{
+    position: absolute;
+    width: 50vw;
+  }
+  &-left{
+    left: -22vw;
+    transform: rotate(-6deg);
+  }
+  &-right{
+    right: -11vw;
+    transform: rotateY(180deg);
+  }
+}
+.block-1{
+  overflow-x: hidden;
+  h1{
+    font-weight: 300;
+    letter-spacing: 9px;
+    font-size: 74px;
+  }
+  button{
+    @include pulse($color: #28a745);
+  }
+
+  @media (max-width: 500px){
+    text-align: center;
+    h1{
+      font-size: 30px;
+    }
+  }
+}
+
+.block-2{
+  @media (min-width: 992px){
+    padding: 100px 0;
+  }
+  .intestines{
+    position: relative;
+    &__img{
+      width: 70%;
+      @media (min-width: 992px){
+        @include absolute-center();
+        width: 150%;
+        z-index: -1;
+      }
+    }
+  }
+}
+
+.owl-carousel .item-video{
+  height: 200px;
+}

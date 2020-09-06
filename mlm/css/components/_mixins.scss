@@ -1,0 +1,70 @@
+@mixin keyframes($animation-name) {
+  @-webkit-keyframes #{$animation-name} {
+    @content;
+  }
+  @-moz-keyframes #{$animation-name} {
+    @content;
+  }  
+  @-ms-keyframes #{$animation-name} {
+    @content;
+  }
+  @-o-keyframes #{$animation-name} {
+    @content;
+  }  
+  @keyframes #{$animation-name} {
+    @content;
+  }
+}
+
+@mixin animation($str) {
+  -webkit-animation: #{$str};
+  -moz-animation: #{$str};
+  -ms-animation: #{$str};
+  -o-animation: #{$str};
+  animation: #{$str};      
+}
+
+@mixin addCols($prefix, $sufix){
+  .#{$prefix}-#{$sufix}{
+    @content
+  };
+
+  @media (min-width:576px){
+    .#{$prefix}-sm-#{$sufix}{
+      @content
+    }
+  };
+  
+  @media (min-width:768px){
+    .#{$prefix}-md-#{$sufix}{
+      @content
+    }
+  };
+  
+  @media (min-width:992px){
+    .#{$prefix}-lg-#{$sufix}{
+      @content
+    }
+  };
+
+  @media (min-width:1200px){
+    .#{$prefix}-xl-#{$sufix}{
+      @content
+    }
+  };
+}
+
+@mixin pulse ($color) {
+  box-shadow: 0 0 0 0 $color;
+  animation: pulse 1.5s infinite;
+  &:hover {
+    animation: none;
+  }
+}
+
+@mixin absolute-center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
