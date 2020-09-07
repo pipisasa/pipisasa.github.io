@@ -10,11 +10,12 @@ header{
   width: 100vw;
   z-index: 1000;
   background-color: #c9ebffe0;
+  padding: 15px;
 
   .logo{
     display: block;
-    width: 130px;
-    padding: 15px;
+    width: 70px;
+    // padding: 15px;
     img{
       width: 100%;
     }
@@ -23,9 +24,9 @@ header{
     .nav-list{
       display: flex;
       
-      &__item{
-        padding: 15px;
-      }
+      // &__item{
+        // padding: 15px;
+      // }
     }
     .phone{
       text-align: center;
@@ -39,6 +40,7 @@ header{
         }
         &__subtitle{
           font-size: 20px;
+          margin: 0;
         }
       }
     }
@@ -76,3 +78,14 @@ header{
     }
   }
 }
+
+// #myForm{
+//   .input-group-text{
+//     border-top-left-radius: 100px;
+//     border-bottom-left-radius: 100px;
+//   }
+//   input{
+//     border-top-right-radius: 100px;
+//     border-bottom-right-radius: 100px;
+//   }
+// }
