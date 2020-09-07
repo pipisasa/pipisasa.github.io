@@ -18,4 +18,12 @@ jQuery(function($){$(document).ready(()=>{
       }
     }
   });
+
+  $(".sertificate").on("click", function(){
+    console.log("click");
+    $(".sertificate").removeClass("active");
+    $(this).addClass("active");
+    $(".sertificate-preview").attr("src", $(".sertificate.active img").attr("src"))
+  })
+
 })})
