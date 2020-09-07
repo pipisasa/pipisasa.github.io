@@ -1,3 +1,4 @@
+@import './scss/bootstrap.scss';
 @import './components/mixins';
 @import './/components/keyframes';
 
@@ -14,7 +15,9 @@
     transform: rotate(-6deg);
   }
   &-right{
-    right: -11vw;
+    // right: -11vw;
+    right: 0;
+    width: 30vw;
     transform: rotateY(180deg);
   }
 }
