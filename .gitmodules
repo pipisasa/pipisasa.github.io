@@ -3,4 +3,4 @@
 	url = https://github.com/pipisasa/labirint_algoritm
 [submodule "waves_simulation"]
 	path = waves_simulation
-	url = git@github.com:pipisasa/waves_simulation.git
+	url = https://github.com/pipisasa/waves_simulation
