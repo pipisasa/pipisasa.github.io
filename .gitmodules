@@ -4,3 +4,6 @@
 [submodule "waves_simulation"]
 	path = waves_simulation
 	url = https://github.com/pipisasa/waves_simulation
+[submodule "barnsley_fern"]
+	path = barnsley_fern
+	url = https://github.com/pipisasa/barnsley_fern
